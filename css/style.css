@@ -12,11 +12,12 @@ body{
     margin: 1em auto;
     background-color: #0000004d;
     padding: 1em;
+    /* display: none; */
 }
 img{
     max-width: 100%;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
 }
 .header{
     display: flex;
